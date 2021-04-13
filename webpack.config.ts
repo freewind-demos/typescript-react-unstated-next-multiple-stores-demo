@@ -21,7 +21,7 @@ const config: Configuration = {
     }]
   },
   plugins: [
-    new HtmlWebpackPlugin()
+    new HtmlWebpackPlugin() as any
   ]
 }
 
