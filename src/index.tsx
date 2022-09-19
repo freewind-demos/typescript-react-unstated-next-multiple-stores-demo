@@ -1,9 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import {HoxRoot} from 'hox';
 
-import { Hello } from './Hello'
+import {Hello} from './Hello'
 
 ReactDOM.render(
-  <Hello/>,
-  document.getElementById('root')
+    <HoxRoot><Hello/></HoxRoot>,
+    document.getElementById('root')
 )
