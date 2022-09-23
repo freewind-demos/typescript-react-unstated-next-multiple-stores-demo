@@ -1,10 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import {HoxRoot} from 'hox';
 
 import {Hello} from './Hello'
+import {Store} from './store/Store'
 
 ReactDOM.render(
-    <HoxRoot><Hello/></HoxRoot>,
+    <Store.Provider>
+        <Hello/>
+    </Store.Provider>,
     document.getElementById('root')
 )
