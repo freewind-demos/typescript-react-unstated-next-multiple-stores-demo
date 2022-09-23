@@ -1,7 +1,7 @@
-TypeScript React "unstated-next" Demo
+TypeScript React "unstated-next" Multiple Stores Demo
 =================================
 
-使用 unstated-next 来管理状态
+混合使用多个store。注意Provider的顺序
 
 ```
 npm install
